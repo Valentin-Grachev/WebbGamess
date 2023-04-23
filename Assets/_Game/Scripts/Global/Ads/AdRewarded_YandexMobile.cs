@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 using YandexMobileAds;
 using YandexMobileAds.Base;
 
@@ -6,10 +7,12 @@ namespace AdService
 {
     public class AdRewarded_YandexMobile : AdRewardedService
     {
+        [SerializeField] private string _adUnitId;
+
+
+
         private readonly string logName = "<color=#FFB800>Ads Yandex Mobile</color>";
 
-
-        private readonly string releaseAdUnitId = "";
         private readonly string testAdUnitId = "demo-rewarded-yandex";
 
         private RewardedAd _rewardedAd;
@@ -21,12 +24,23 @@ namespace AdService
             get
             {
                 if (RewardedAds.useTestAds) return testAdUnitId;
-                else return releaseAdUnitId;
+                else return _adUnitId;
             }
         }
 
 
-        public override bool available => _rewardedAd != null && _rewardedAd.IsLoaded();
+        public override bool available
+        {
+            get
+            {
+                bool avail = _rewardedAd != null && _rewardedAd.IsLoaded();
+                if (!avail) RewardedAds.Log(logName + ": Not available");
+                return avail;
+            }
+        }
+
+
+        
 
         public override void Load(Action onAvailable)
         {
