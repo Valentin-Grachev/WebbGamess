@@ -54,7 +54,11 @@ namespace AdService
 
         public static void Show(Action<CallbackType> callback)
         {
-            if (instance.skipAds) callback?.Invoke(CallbackType.Success);
+            if (instance.skipAds)
+            {
+                callback?.Invoke(CallbackType.Success);
+                return;
+            }
 
 
             foreach (var service in instance.adRewardedServices)
