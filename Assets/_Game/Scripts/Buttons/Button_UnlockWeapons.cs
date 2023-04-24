@@ -1,6 +1,5 @@
 using AdService;
 using UnityEngine;
-using YG;
 
 public class Button_UnlockWeapons : ButtonInteract
 {
