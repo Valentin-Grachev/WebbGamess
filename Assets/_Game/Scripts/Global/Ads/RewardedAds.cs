@@ -17,7 +17,7 @@ namespace AdService
 
         [Space(10)]
         [SerializeField] private bool showLogs;
-        [SerializeField] private bool _useTestAds; public static bool useTestAds { get => instance._useTestAds; }
+        [SerializeField] private bool _useTestAds; public static bool useTestAds { get => instance._useTestAds || instance.skipAds; }
         [SerializeField] private bool skipAds;
 
 
@@ -54,7 +54,11 @@ namespace AdService
 
         public static void Show(Action<CallbackType> callback)
         {
-            if (instance.skipAds) callback?.Invoke(CallbackType.Success);
+            if (instance.skipAds)
+            {
+                callback?.Invoke(CallbackType.Success);
+                return;
+            }
 
 
             foreach (var service in instance.adRewardedServices)
