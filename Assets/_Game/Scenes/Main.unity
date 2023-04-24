@@ -1156,8 +1156,8 @@ MonoBehaviour:
   - {fileID: 84523456}
   - {fileID: 197172486}
   showLogs: 0
-  _useTestAds: 1
-  skipAds: 1
+  _useTestAds: 0
+  skipAds: 0
 --- !u!4 &235538304
 Transform:
   m_ObjectHideFlags: 0
@@ -6634,8 +6634,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 150150234}
   m_HandleRect: {fileID: 150150233}
   m_Direction: 2
-  m_Value: 0.99999976
-  m_Size: 0.7234119
+  m_Value: 1
+  m_Size: 0.723412
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
