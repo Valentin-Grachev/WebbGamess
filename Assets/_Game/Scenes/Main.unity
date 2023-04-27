@@ -337,10 +337,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1f3f3463fe4a5e14db1101440a420688, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: rpg
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -548,6 +548,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84795028}
   m_CullTransparentMesh: 1
+--- !u!83 &96694968
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: grenade
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &110723900
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,10 +956,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: c612b669cf36ff74b977e96b63a93c32, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: m16
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1399,10 +1427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 853fa77951522df45ab6afb6e8c8978b, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: revolver
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1475,6 +1503,9 @@ GameObject:
   m_Component:
   - component: {fileID: 508788537}
   - component: {fileID: 508788536}
+  - component: {fileID: 508788540}
+  - component: {fileID: 508788539}
+  - component: {fileID: 508788541}
   m_Layer: 0
   m_Name: Sounds
   m_TagString: Untagged
@@ -1494,6 +1525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f9a5edbbb90c57448ab9086170516ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _yandexAudio: {fileID: 508788539}
+  _cash: {fileID: 508788541}
 --- !u!4 &508788537
 Transform:
   m_ObjectHideFlags: 0
@@ -1509,6 +1542,238 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &508788539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508788535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2aac60583676c44b528663f59f134d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pausa: 0
+--- !u!82 &508788540
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508788535}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &508788541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508788535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3c98438b560084f908b7a857b1c3c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cash: 1
+  DinamicCash: 1
+  infoList:
+  - name: ak
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 888042461}
+    Cashing: 1
+  - name: axe
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 715555459}
+    Cashing: 1
+  - name: bat
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 2140661798}
+    Cashing: 1
+  - name: crainsaw
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 1270602051}
+    Cashing: 1
+  - name: grenade
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 96694968}
+    Cashing: 1
+  - name: hammer
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 611197254}
+    Cashing: 1
+  - name: katana
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 2098798626}
+    Cashing: 1
+  - name: knife
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 702344542}
+    Cashing: 1
+  - name: m16
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 760322984}
+    Cashing: 1
+  - name: minigun
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 837617783}
+    Cashing: 1
+  - name: muffler
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 1029515678}
+    Cashing: 1
+  - name: pistol
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 1121507894}
+    Cashing: 1
+  - name: pp
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 1817058759}
+    Cashing: 1
+  - name: pp2
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 2062473816}
+    Cashing: 1
+  - name: revolver
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 1400214002}
+    Cashing: 1
+  - name: rpg
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 1873289738}
+    Cashing: 1
+  - name: snaiper
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 709332524}
+    Cashing: 1
+  - name: uzi
+    Path: C:/Users/valya/OneDrive/Desktop/Sound-Games/Assets/StreamingAssets
+    Ext: mp3
+    Type: 13
+    Cash: {fileID: 2003557159}
+    Cashing: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +2100,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558162194}
   m_CullTransparentMesh: 1
+--- !u!83 &611197254
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hammer
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &640143188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,6 +2199,90 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1256863723418751833, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
   m_PrefabInstance: {fileID: 1486970711}
   m_PrefabAsset: {fileID: 0}
+--- !u!83 &702344542
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: knife
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
+--- !u!83 &709332524
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: snaiper
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
+--- !u!83 &715555459
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: axe
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1001 &751023562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2001,10 +2378,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: c65607309c7a67642a8d3c202a468f82, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: pp2
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2151,6 +2528,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751615537}
   m_CullTransparentMesh: 1
+--- !u!83 &760322984
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: m16
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &803339670
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2698,62 @@ MonoBehaviour:
   _button: {fileID: 8542829606993991898}
   _cells: {fileID: 1797455133}
   _block: {fileID: 815468417}
+--- !u!83 &837617783
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: minigun
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
+--- !u!83 &888042461
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ak
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!224 &912210826 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1256863723418751833, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
@@ -2355,6 +2816,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caf9732433f4dc044845763962493607, type: 3}
+--- !u!83 &1029515678
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: muffler
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1034011393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2487,10 +2976,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 77c0e8d7f1dd1e94f848bda3868c2527, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: axe
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723826331856, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2844,6 +3333,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107944265}
   m_CullTransparentMesh: 1
+--- !u!83 &1121507894
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pistol
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1001 &1140568740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2939,10 +3456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 02fc5467b2578f14880bdb9d2e31289b, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: muffler
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3011,7 +3528,7 @@ RectTransform:
   m_GameObject: {fileID: 1154501290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 431586768}
@@ -3023,7 +3540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 4, y: -1117}
+  m_AnchoredPosition: {x: 4, y: -901}
   m_SizeDelta: {x: 750, y: 1414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154501292
@@ -3238,7 +3755,7 @@ RectTransform:
   m_GameObject: {fileID: 1223447136}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1175094675}
@@ -3374,10 +3891,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 38c6d6d4ccb694644bc037bdf64196e3, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: snaiper
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3551,10 +4068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 9e366a81b0f8d6d47bf90b09ea7c8b73, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: ak
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3617,6 +4134,34 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 8a4d19a5192c5fb41921b66534c41ae7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+--- !u!83 &1270602051
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: crainsaw
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1270940359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3910,10 +4455,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 6ec21ff7a91ad564cba60c91ca1b9d6e, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: hammer
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723826331856, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4018,6 +4563,34 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1256863723418751833, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
   m_PrefabInstance: {fileID: 507125202}
   m_PrefabAsset: {fileID: 0}
+--- !u!83 &1400214002
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: revolver
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1416579202
 GameObject:
   m_ObjectHideFlags: 0
@@ -4223,10 +4796,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8a0e9056dc575eb40a4516ac556c6f35, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: uzi
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4351,10 +4924,10 @@ RectTransform:
   m_Father: {fileID: 1076208412}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 59, y: -586.5}
-  m_SizeDelta: {x: 528, y: 1173}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 528, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570337018
 MonoBehaviour:
@@ -4519,10 +5092,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 01a22b77791bf7f459b372bcce286d20, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: knife
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723826331856, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4646,10 +5219,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2987f15100fe09246be390199bcf794b, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: pistol
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4719,6 +5292,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!83 &1817058759
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pp
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1001 &1835790322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4814,10 +5415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: a1f8cb5cc35961649b84dc7077b821b6, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: katana
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723826331856, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4870,7 +5471,7 @@ RectTransform:
   m_GameObject: {fileID: 1846747120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2123554215}
@@ -5028,10 +5629,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 97ea8aeb308f0494a92b03173451df53, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: minigun
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5170,6 +5771,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872743904}
   m_CullTransparentMesh: 1
+--- !u!83 &1873289738
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rpg
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &1903481760
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,10 +5970,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 624fb2b3e7be290479edf014e57eed70, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: crainsaw
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723826331856, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5374,6 +6003,34 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1256863723418751833, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
   m_PrefabInstance: {fileID: 2092844863}
   m_PrefabAsset: {fileID: 0}
+--- !u!83 &2003557159
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uzi
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1001 &2045623392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5469,10 +6126,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3ebae630dfba1488447644b62376bb, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: grenade
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5611,6 +6268,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050946917}
   m_CullTransparentMesh: 1
+--- !u!83 &2062473816
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pp2
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1001 &2092844863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5706,10 +6391,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: d2d3b3e4c9164d54d98f7d3f053e6600, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: pp
+      objectReference: {fileID: 0}
     - target: {fileID: 1256863723771914164, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5752,6 +6437,34 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 08b9bc70f99a9b443915ead9c6a020b3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+--- !u!83 &2098798626
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: katana
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!1 &2104027685
 GameObject:
   m_ObjectHideFlags: 0
@@ -5835,8 +6548,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 150150234}
   m_HandleRect: {fileID: 150150233}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.7830064
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5953,9 +6666,37 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -403.5393, y: 0}
-  m_SizeDelta: {x: 792.767, y: 1498.0721}
+  m_AnchoredPosition: {x: -396.3835, y: 0}
+  m_SizeDelta: {x: 792.767, y: 1127.881}
   m_Pivot: {x: 0, y: 1}
+--- !u!83 &2140661798
+AudioClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bat
+  m_LoadType: 0
+  m_Channels: 0
+  m_Frequency: 0
+  m_BitsPerSample: 0
+  m_Length: 0
+  m_IsTrackerFormat: 0
+  m_Ambisonic: 0
+  m_SubsoundIndex: 0
+  m_PreloadAudioData: 1
+  m_LoadInBackground: 0
+  m_Legacy3D: 0
+  m_Resource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_CompressionFormat: 0
+  m_EditorResource:
+    m_Source: 
+    m_Offset: 0
+    m_Size: 0
+  m_EditorCompressionFormat: 0
 --- !u!224 &2144601061 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1256863723418751833, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
@@ -6056,10 +6797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1256863723418751836, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 15fae3e6cb96b904d92682474ffa3f93, type: 3}
+    - target: {fileID: 1256863723418751838, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
+      propertyPath: _audioName
+      value: bat
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63c5a9ffb973a2f4cbf7a8445cdd9423, type: 3}
 --- !u!222 &8542829606993991844

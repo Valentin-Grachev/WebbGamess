@@ -3,29 +3,43 @@ using UnityEngine;
 
 public class Sounds : MonoBehaviour
 {
+    [SerializeField] private AudioYB _yandexAudio;
+    [SerializeField] private AudioStreamCash _cash;
+    private static AudioYB yandexAudio;
+    private static AudioStreamCash cash;
+
     public static event Action onEndSound;
 
 
-    private static AudioSource _playingAudio;
-
     private static float _soundTimeLeft = 0f;
 
+    private void Awake()
+    {
+        yandexAudio = _yandexAudio;
+        cash = _cash;
+    }
 
     public static void Stop()
     {
-        _playingAudio.Stop();
+        yandexAudio.Stop();
         onEndSound?.Invoke();
     }
 
-    public static void Play(AudioSource audio)
+    public static void Play(string audioName)
     {
-        _playingAudio?.Stop();
+        yandexAudio.Stop();
         onEndSound?.Invoke();
 
-        _playingAudio = audio;
-        _playingAudio.Play();
+        yandexAudio.Play(audioName);
 
-        _soundTimeLeft = _playingAudio.clip.length;
+        foreach (var info in cash.infoList)
+            if (info.Name == audioName)
+            {
+                _soundTimeLeft = info.Cash.length;
+                break;
+            }
+
+
     }
 
 

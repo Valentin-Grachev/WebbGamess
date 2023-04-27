@@ -3,7 +3,7 @@ using UnityEngine;
 public class Button_PlaySound : ButtonInteract
 {
     [SerializeField] private GameObject _frame;
-    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private string _audioName;
 
     private bool _playing = false;
 
@@ -18,7 +18,7 @@ public class Button_PlaySound : ButtonInteract
     {
         if (!_playing)
         {
-            Sounds.Play(_audioSource);
+            Sounds.Play(_audioName);
             _frame.SetActive(true);
             _playing = true;
         }
