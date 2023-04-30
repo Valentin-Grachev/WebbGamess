@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3b464a7bb37d14eb223226a454413f, type: 3}
+  m_Name: Pairs
+  m_EditorClassIdentifier: 
+  _cards:
+  - {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+  - {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+  pairs:
+  - card1: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    card2: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    card1Percentage: 35
