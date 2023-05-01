@@ -13,9 +13,1339 @@ MonoBehaviour:
   m_Name: Pairs
   m_EditorClassIdentifier: 
   _cards:
-  - {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
   - {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+  - {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+  - {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+  - {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+  - {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+  - {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+  - {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+  - {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+  - {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+  - {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+  - {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+  - {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+  - {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+  - {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+  - {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+  - {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+  - {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+  - {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+  - {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+  - {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+  - {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+  - {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+  - {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+  - {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+  - {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+  - {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+  - {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+  - {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+  - {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+  - {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
   pairs:
-  - card1: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
-    card2: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
-    card1Percentage: 35
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    leftPercentage: 23
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    leftPercentage: 53
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    leftPercentage: 78
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 25
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 25
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 77
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 22
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 23
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 55
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 66
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 73
+  - leftCard: {fileID: 11400000, guid: c5c8e99a1c11fb74d942561d998fcacb, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    leftPercentage: 77
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 80
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 48
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 80
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 68
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 41
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 77
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 48
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 77
+  - leftCard: {fileID: 11400000, guid: 0c5dd631579eb2547bb24999f51c9939, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 74
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 38
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 38
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 53
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 35
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 68
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 41
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: 7f24a5a3d0d907149a56281cc85ff2ef, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 25
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    leftPercentage: 53
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 73
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 42
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 56
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 55
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 32
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 32
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 71
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: c2f41f2c04793c946afbeacdead1afbd, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    leftPercentage: 25
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 39
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 23
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 56
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: c10c21f342ec7b945acb8b8fd6527234, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    leftPercentage: 76
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 25
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 38
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 78
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: f7d00e295d0101d49b8e698d63df4309, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    leftPercentage: 42
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 69
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 59
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 78
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 73
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: afc25301c1b5a064585b41f04ab4fcf8, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 56
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    leftPercentage: 42
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 59
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 59
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 66
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 74
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 59
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 32
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 74
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 79
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 59
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 9e4d51b987d685143abda09586824939, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 79
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 73
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 48
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 66
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 32
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 76
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 76
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 38
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 71
+  - leftCard: {fileID: 11400000, guid: 221b6d1d2dc105844a473a0a8f189587, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 80
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 71
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 33
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 74
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 79
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 41
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: c1687ebbe9b2a0c498f4f8b9816a4547, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 39
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 56
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 77
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 79
+  - leftCard: {fileID: 11400000, guid: d668a0ae63873a94b89ab11d00b7f8b1, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 73
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 35
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 80
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 55
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 69
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 41
+  - leftCard: {fileID: 11400000, guid: a3d46355e93076440a15a8a5015bd7e9, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 39
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 80
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 53
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 48
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 44
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 64
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 74
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: cc172d3b49202b34eb3695ff79936474, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 20
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 33
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 55
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 23
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: f2bcfbba301414a4bb4d2392a1912863, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 48
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 36
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 78
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 79
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: dffa8845da539c84ab8c80848a82a5f8, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    leftPercentage: 38
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 33
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 79
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 32
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 69
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: af7d2549c7699964697f3a858ba41218, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 67
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 39
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 22
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 31
+  - leftCard: {fileID: 11400000, guid: 27f9678b965d1b343b7671c0ca44532b, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 33
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 65
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 51
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 60
+  - leftCard: {fileID: 11400000, guid: 50bd504126a98154fb5801be9e630b26, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 52
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 69
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 38
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 42
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 73
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 77
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: e3ecefd7ee435db478a32d4317f8d3a4, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 69
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 72
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 21
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 62
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 41
+  - leftCard: {fileID: 11400000, guid: bde8329cda63f0e4cbaf2fd5dc8cd331, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 20
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    leftPercentage: 43
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 59
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 29
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 33
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 69
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 28
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 27
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: 9b2d294b22a460f4199d443c2657eeef, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 57
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    leftPercentage: 24
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 55
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 45
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 40
+  - leftCard: {fileID: 11400000, guid: 441ad7199bedf564094c6c9ce45c86f3, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 53
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    leftPercentage: 26
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 32
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 22
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 78
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 37
+  - leftCard: {fileID: 11400000, guid: 85d077e5c84c92045ac934ea32fcf619, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 33
+  - leftCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    rightCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 78
+  - leftCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 49
+  - leftCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 46
+  - leftCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 34
+  - leftCard: {fileID: 11400000, guid: df46d353abe38484cbb0f371c4025c1a, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 61
+  - leftCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    rightCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    leftPercentage: 75
+  - leftCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 76
+  - leftCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 66
+  - leftCard: {fileID: 11400000, guid: 661c1c8010f0a10498d792a7f7dbe20a, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 63
+  - leftCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    rightCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    leftPercentage: 54
+  - leftCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 53
+  - leftCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 39
+  - leftCard: {fileID: 11400000, guid: 4a6dfc72f3d5e3746b5a2ccd850c6283, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 30
+  - leftCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    rightCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    leftPercentage: 22
+  - leftCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 70
+  - leftCard: {fileID: 11400000, guid: b129e2dbb63fd3a4da65eb0669ba183c, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 47
+  - leftCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    rightCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    leftPercentage: 58
+  - leftCard: {fileID: 11400000, guid: 36187d4635fc55a42b6db059922c30e9, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 80
+  - leftCard: {fileID: 11400000, guid: f0196b9d2ec7ce24883c9676dd1012a3, type: 2}
+    rightCard: {fileID: 11400000, guid: b6b561412dbb0f9438021a5c334e7b89, type: 2}
+    leftPercentage: 73

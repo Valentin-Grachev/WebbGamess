@@ -1,6 +1,8 @@
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
+using YG;
 
 public enum CardSide { Left, Right }
 
@@ -8,70 +10,134 @@ public class Quiz : MonoBehaviour
 {
     public static Quiz instance { get; private set; }
 
-
+    [SerializeField] private AudioYB _audio;
     [SerializeField] private PairsData _pairsData;
     [Space(10)]
     [SerializeField] private Card _leftCard;
     [SerializeField] private Card _rightCard;
     [Space(10)]
     [SerializeField] private SliderPercentage _slider;
+    [SerializeField] private TextMeshProUGUI _levelText;
+    [SerializeField] private TextMeshProUGUI _nextLevelText;
+    [SerializeField] private GameObject _adLabel;
 
     [Header("Animations:")]
     [SerializeField] private Anim_Scale _othersAnswerTextAnim;
     [SerializeField] private Anim_Scale _sliderAnim;
     [SerializeField] private Anim_Move _smileAnim;
-    [SerializeField] private Anim_Move _matchedAnim;
-    [SerializeField] private Anim_Move _nextLevelAnim;
-    [SerializeField] private Anim_Move _leftCardAnim;
-    [SerializeField] private Anim_Move _rightCardAnim;
+    [SerializeField] private Anim_Scale _matchedAnim;
+    [SerializeField] private Anim_Scale _nextLevelAnim;
+    [SerializeField] private Button_NextLevel _nextLevelButton;
 
+    private PairsData.Pair _currentPair;
+    private int _level;
+    private const int adEveryLevel = 6;
 
     private void Awake()
     {
         instance = this;
     }
 
+    private void Start()
+    {
+        if (PlayerPrefs.HasKey("level")) _level = PlayerPrefs.GetInt("level");
+        else
+        {
+            _level = 1;
+            PlayerPrefs.SetInt("level", _level);
+        }
+
+        StartGame();
+    }
+
+
+    private void StartGame()
+    {
+        LoadCardData();
+        _leftCard.UpdateImage();
+        _rightCard.UpdateImage();
+        _leftCard.Deactive();
+        _rightCard.Deactive();
+        _levelText.text = "Óðîâåíü " + _level.ToString();
+    }
+
 
     public void ShowAnswer(CardSide selectedCard)
     {
-        string leftCardName = _leftCard.data.cardName;
-        string rightCardName = _rightCard.data.cardName;
-        int leftPercentage = 0;
         CardSide winSide = CardSide.Left;
 
-        foreach (var pair in _pairsData.pairs)
-        {
-            if (pair.leftCard.cardName == leftCardName && pair.rightCard.cardName == rightCardName)
-            {
-                leftPercentage = pair.leftPercentage;
-                if (leftPercentage < 50) winSide = CardSide.Right;
-                break;
-            }
-        }
+        if (_currentPair.leftPercentage < 50) winSide = CardSide.Right;
+
 
         bool win = winSide == selectedCard;
 
-        _leftCard.Active(shining: selectedCard == CardSide.Left, correct: winSide == CardSide.Left);
-        _rightCard.Active(shining: selectedCard == CardSide.Right, correct: winSide == CardSide.Right);
+        _leftCard.Active(isTrueAnswer: winSide == CardSide.Left, selectedCard == CardSide.Left);
+        _rightCard.Active(isTrueAnswer: winSide == CardSide.Right, selectedCard == CardSide.Right);
 
-        _slider.SetValue(leftPercentage);
+        _slider.SetValue(_currentPair.leftPercentage);
+        _sliderAnim.Open();
         _smileAnim.Close();
 
-        if (win) _matchedAnim.Open();
+
+        if (win)
+        {
+            _matchedAnim.Open();
+            _audio.Play("win");
+        }
+        else _audio.Play("lose");
 
         _nextLevelAnim.Open();
+        _othersAnswerTextAnim.Open();
 
-        string key = leftCardName + "_" + rightCardName;
-        PlayerPrefs.SetInt(key, 1);
+
+        _level++;
+        PlayerPrefs.SetInt("level", _level);
+        PairsData.SavePair(_currentPair);
+        _nextLevelButton.active = true;
+
+        if (_level % adEveryLevel == 0)
+        {
+            _nextLevelText.text = "ÇÀÃÐÓÇÈÒÜ ÑËÅÄÓÞÙÈÅ";
+            _adLabel.SetActive(true);
+        }
+        else
+        {
+            _nextLevelText.text = "ÑËÅÄÓÞÙÈÉ ÓÐÎÂÅÍÜ";
+            _adLabel.SetActive(false);
+        }
+
     }
 
 
     public void NextLevel()
     {
-        DOTween.Sequence().Append(_leftCard.gameObject.SetActive(false));
+        if (_level % adEveryLevel == 0) YandexGame.RewVideoShow(id: 0);
+
+        LoadCardData();
+        _levelText.text = "Óðîâåíü " + _level.ToString();
+
+        _leftCard.ChangeCard();
+        _rightCard.ChangeCard();
+        _leftCard.Deactive();
+        _rightCard.Deactive();
+
+        _matchedAnim.Close();
+        _nextLevelAnim.Close();
+        _othersAnswerTextAnim.Close();
+        _sliderAnim.Close();
+        _smileAnim.Open();
+        
+
     }
 
 
+
+    private void LoadCardData()
+    {
+        _currentPair = _pairsData.NewPair();
+        _leftCard.data = _currentPair.leftCard;
+        _rightCard.data = _currentPair.rightCard;
+    }
 
 
 }

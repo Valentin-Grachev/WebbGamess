@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Button_NextLevel : MonoBehaviour
+public class Button_NextLevel : ButtonInteract
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private AudioYB _audio;
 
-    // Update is called once per frame
-    void Update()
+    public bool active = true;
+
+    protected override void OnClick()
     {
-        
+        if (!active) return;
+
+        Quiz.instance.NextLevel();
+        _audio.Play("click");
+        active = false;
     }
 }

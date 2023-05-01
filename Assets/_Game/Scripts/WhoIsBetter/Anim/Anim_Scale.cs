@@ -26,6 +26,7 @@ public class Anim_Scale : MonoBehaviour
     public void Open()
     {
         if (_opened) return;
+        gameObject.SetActive(true);
 
         transform.DOScale(1f, _openDuration).SetEase(_openEase);
         _opened = true;
@@ -35,8 +36,8 @@ public class Anim_Scale : MonoBehaviour
     {
         if (!_opened) return;
 
-        transform.DOScale(0f, _closeDuration).SetEase(_closeEase);
-        _opened = false;
+        var anim = transform.DOScale(0f, _closeDuration).SetEase(_closeEase);
+        anim.onComplete += () => { _opened = false; gameObject.SetActive(false); };
     }
 
 

@@ -9,7 +9,7 @@ public class PairsData : ScriptableObject
 
 
     [System.Serializable]
-    public struct Pair
+    public class Pair
     {
         public CardData leftCard;
         public CardData rightCard;
@@ -40,5 +40,27 @@ public class PairsData : ScriptableObject
     }
 
 
+    public Pair NewPair()
+    {
+        for (int i = 0; i < 1000; i++)
+        {
+            int randomIndex = Random.Range(0, pairs.Count);
+
+            var pair = pairs[randomIndex];
+            string pairKey = pair.leftCard.name + "_" + pair.rightCard.name;
+
+            if (!PlayerPrefs.HasKey(pairKey)) return pair;
+        }
+        
+
+        return null;
+    }
+
+
+    public static void SavePair(Pair pair)
+    {
+        string key = pair.leftCard.name + "_" + pair.rightCard.name;
+        PlayerPrefs.SetInt(key, 1);
+    }
 
 }

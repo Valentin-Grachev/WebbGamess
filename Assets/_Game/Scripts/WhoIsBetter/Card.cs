@@ -14,7 +14,6 @@ public class Card : MonoBehaviour
     [SerializeField] private Sprite _incorrectSprite;
 
     [Header("Animation:")]
-    [SerializeField] private float _moveOffset;
     [SerializeField] private float _moveDuration;
     [SerializeField] private Ease _openEase;
 
@@ -28,15 +27,18 @@ public class Card : MonoBehaviour
         _rectTransform = GetComponent<RectTransform>();
     }
 
-    public void Active(bool shining, bool correct)
+    public void Active(bool isTrueAnswer, bool selected)
     {
         _arrow.SetActive(true);
-        _correctLabel.gameObject.SetActive(true);
+        
+        if (selected)
+        {
+            _correctLabel.gameObject.SetActive(true);
+            if (isTrueAnswer) _correctLabel.sprite = _correctSprite;
+            else _correctLabel.sprite = _incorrectSprite;
+        }
 
-        if (correct) _correctLabel.sprite = _correctSprite;
-        else _correctLabel.sprite = _incorrectSprite;
-
-        _shine.SetActive(shining);
+        _shine.SetActive(isTrueAnswer);
         _button.image.raycastTarget = false;
     }
 
@@ -48,17 +50,19 @@ public class Card : MonoBehaviour
         _shine.SetActive(false);
     }
 
-    public void RunAnimationForChangeCard()
+    public void ChangeCard()
     {
+        float startPositionX = _rectTransform.localPosition.x;
+
         DOTween.Sequence()
-            .Append(_rectTransform.DOMoveX(_rectTransform.localPosition.x + _moveOffset, _moveDuration))
-            .InsertCallback(0f, () => UpdateImage())
-            .Append(_rectTransform.DOMoveX(_rectTransform.localPosition.x, _moveDuration));
+            .Append(transform.DOScale(0f, _moveDuration).SetEase(_openEase))
+            .InsertCallback(_moveDuration, () => UpdateImage())
+            .Append(transform.DOScale(1f, _moveDuration).SetEase(_openEase));
 
 
     }
 
-    private void UpdateImage()
+    public void UpdateImage()
     {
         _cardImage.sprite = data.sprite;
     }
