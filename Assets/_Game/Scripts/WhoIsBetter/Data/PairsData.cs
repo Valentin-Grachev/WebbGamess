@@ -42,18 +42,20 @@ public class PairsData : ScriptableObject
 
     public Pair NewPair()
     {
-        for (int i = 0; i < 1000; i++)
+        Pair pair = new Pair();
+
+        for (int i = 0; i < 100; i++)
         {
             int randomIndex = Random.Range(0, pairs.Count);
 
-            var pair = pairs[randomIndex];
+            pair = pairs[randomIndex];
             string pairKey = pair.leftCard.name + "_" + pair.rightCard.name;
 
             if (!PlayerPrefs.HasKey(pairKey)) return pair;
         }
         
 
-        return null;
+        return pair;
     }
 
 

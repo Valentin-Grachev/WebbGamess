@@ -31,7 +31,7 @@ public class Quiz : MonoBehaviour
 
     private PairsData.Pair _currentPair;
     private int _level;
-    private const int adEveryLevel = 6;
+    private const int adEveryLevel = 7;
 
     private void Awake()
     {
@@ -90,8 +90,7 @@ public class Quiz : MonoBehaviour
         _othersAnswerTextAnim.Open();
 
 
-        _level++;
-        PlayerPrefs.SetInt("level", _level);
+        
         PairsData.SavePair(_currentPair);
         _nextLevelButton.active = true;
 
@@ -111,7 +110,23 @@ public class Quiz : MonoBehaviour
 
     public void NextLevel()
     {
-        if (_level % adEveryLevel == 0) YandexGame.RewVideoShow(id: 0);
+        if (_level % adEveryLevel == 0)
+        {
+            YandexGame.RewardVideoEvent += RunNextLevel;
+            YandexGame.RewVideoShow(id: 0);
+        }
+
+        else RunNextLevel(0);
+        
+
+    }
+
+    private void RunNextLevel(int dummy)
+    {
+        YandexGame.RewardVideoEvent -= RunNextLevel;
+        _nextLevelButton.active = false;
+        _level++;
+        PlayerPrefs.SetInt("level", _level);
 
         LoadCardData();
         _levelText.text = "Уровень " + _level.ToString();
@@ -126,8 +141,6 @@ public class Quiz : MonoBehaviour
         _othersAnswerTextAnim.Close();
         _sliderAnim.Close();
         _smileAnim.Open();
-        
-
     }
 
 

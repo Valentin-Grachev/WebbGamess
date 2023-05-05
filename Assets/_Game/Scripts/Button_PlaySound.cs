@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Button_PlaySound : ButtonInteract
+public class Button_PlaySound : ButtonClick
 {
     [SerializeField] private GameObject _frame;
     [SerializeField] private string _audioName;

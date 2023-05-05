@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Button_NextLevel : ButtonInteract
+public class Button_NextLevel : ButtonClick
 {
     [SerializeField] private AudioYB _audio;
 
@@ -12,6 +12,5 @@ public class Button_NextLevel : ButtonInteract
 
         Quiz.instance.NextLevel();
         _audio.Play("click");
-        active = false;
     }
 }
