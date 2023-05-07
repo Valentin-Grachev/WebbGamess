@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Game/Cards/Cards.unity
+    path: Assets/_Games/Cards/Cards.unity
     guid: 5992dd335884c2f46bd95a64dadfc275
   - enabled: 0
-    path: Assets/_Game/Scenes/WhoIsBetter.unity
+    path: Assets/_Games/WhoIsCooler/WhoIsCooler.unity
     guid: abf1c34325a9c144b808188766ddcba6
   - enabled: 0
-    path: Assets/_Game/Scenes/Sounds.unity
+    path: Assets/_Games/Sounds/Sounds.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
